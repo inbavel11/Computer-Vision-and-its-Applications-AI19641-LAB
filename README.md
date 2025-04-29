@@ -79,8 +79,8 @@ python experiment_name.py
 
 ## 📬 Connect
 
-📧 Email: [your-email@example.com]  
-🌐 GitHub: [YourUsername](https://github.com/YourUsername)
+📧 Email: [syogesappu@gmail.com]  
+🌐 GitHub: [Appuyoges](https://github.com/Appuyoges)
 
 ---
 
