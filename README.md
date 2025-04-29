@@ -1,92 +1,88 @@
-Computer Vision Lab - Deep Learning Experiments
-Welcome to my Computer Vision Lab repository! 🌐 This repository contains a collection of deep learning experiments and projects centered around computer vision tasks, implemented with popular frameworks like TensorFlow, PyTorch, and OpenCV. These experiments cover fundamental topics such as image classification, object detection, segmentation, and more advanced topics like GANs and real-time object tracking.
+# 🧠 Computer Vision Lab - Deep Learning Experiments
 
-🖼️ Computer Vision Experiments Included:
-CNN for Image Classification
-Learn how Convolutional Neural Networks (CNN) can be applied to classify images into categories.
-Dataset: CIFAR-10, MNIST
+Welcome to the **Computer Vision Lab**! This repository showcases a series of deep learning experiments focused on computer vision tasks such as image classification, object detection, face recognition, GANs, and more — using **TensorFlow**, **PyTorch**, and **OpenCV**.
 
-CNN for Image Segmentation
-Perform image segmentation to divide images into regions and detect objects within them.
-Dataset: Pascal VOC, CamVid
+---
 
-Face Recognition with CNN
-Implement a CNN-based face recognition system for detecting and recognizing faces from images.
-Dataset: LFW (Labeled Faces in the Wild)
+## 🔍 Experiments Overview
 
-Real-Time Object Detection
-Use object detection algorithms like YOLO and SSD to detect objects in real-time using live video feeds.
-Dataset: COCO
+| S.No | Experiment Title                                                                 | Dataset Used                       | Kaggle Link                                                                 |
+|------|-----------------------------------------------------------------------------------|------------------------------------|------------------------------------------------------------------------------|
+| 1    | CNN for Image Classification                                                     | CIFAR-10, MNIST                    | [CIFAR-10](https://www.kaggle.com/datasets/keras/cifar10), [MNIST](https://www.kaggle.com/datasets/oddrationale/mnist-in-csv) |
+| 2    | CNN for Image Segmentation                                                       | Pascal VOC, CamVid                 | [VOC](https://www.kaggle.com/datasets/kevinbonnes/voc-2012-image-segmentation), [CamVid](https://www.kaggle.com/datasets/alex000kim/camvid) |
+| 3    | Face Recognition using CNN                                                       | LFW (Labeled Faces in the Wild)    | [LFW](https://www.kaggle.com/datasets/berkerisen/who-is-this-face-recognition-dataset) |
+| 4    | Real-Time Object Detection                                                       | COCO                               | [COCO](https://www.kaggle.com/datasets/awsaf49/coco-2017-dataset)         |
+| 5    | Multiple Object Tracking using OpenCV                                            | MOT17                              | [MOT17](https://motchallenge.net/data/MOT17/)                               |
+| 6    | Face Detection using OpenCV                                                      | WIDER FACE, FDDB                   | [WIDER FACE](https://www.kaggle.com/datasets/huylonghuynh/wider-face-dataset), [FDDB](http://vis-www.cs.umass.edu/fddb/) |
+| 7    | SSD-Based Object Detection in Self-Driving Cars                                  | Udacity Self-Driving Dataset       | [Udacity](https://github.com/udacity/self-driving-car)                     |
+| 8    | Object Detection using SSD in PyTorch                                            | COCO, Pascal VOC                   | [COCO](https://www.kaggle.com/datasets/awsaf49/coco-2017-dataset), [VOC](https://www.kaggle.com/datasets/kevinbonnes/voc-2012-image-segmentation) |
+| 9    | Simple GAN to Generate Handwritten Digits (TensorFlow)                           | MNIST                              | [MNIST](https://www.kaggle.com/datasets/oddrationale/mnist-in-csv)         |
+| 10   | Train a GAN to Generate Handwritten Digits (PyTorch or TensorFlow)              | MNIST                              | [MNIST](https://www.kaggle.com/datasets/oddrationale/mnist-in-csv)         |
 
-Multiple Object Tracking using OpenCV
-Track and identify multiple objects moving in a scene using OpenCV’s tracking algorithms.
-Dataset: MOT17
+---
 
-Face Detection with OpenCV
-Use OpenCV for real-time face detection in images and videos.
-Dataset: WIDER FACE, FDDB
+## 💻 Technologies Used
 
-Self-Driving Car: Object Detection using SSD
-Build a self-driving car application using SSD to detect vehicles and pedestrians.
-Dataset: Udacity Driving Dataset
+- **Python** 🐍
+- **TensorFlow / Keras** 🔬
+- **PyTorch** 🔥
+- **OpenCV** 📷
+- **Matplotlib & NumPy** 📊
+- **Jupyter Notebooks** 📘
 
-PyTorch SSD for Object Detection
-Object detection using PyTorch and the SSD model to classify and locate objects in images.
-Dataset: COCO, Pascal VOC
+---
 
-Generative Adversarial Networks (GANs) for Digit Generation
-Use GANs to generate handwritten digits using the MNIST dataset.
-Dataset: MNIST
+## 🚀 Getting Started
 
-Building a Simple GAN with TensorFlow
-Learn the basics of GANs and generate handwritten digits with TensorFlow.
-Dataset: MNIST
-
-🧰 Technologies Used:
-TensorFlow & Keras: For model building and training.
-
-PyTorch: For cutting-edge object detection models.
-
-OpenCV: For real-time computer vision tasks.
-
-NumPy & Matplotlib: For data manipulation and visualizations.
-
-🚀 How to Run the Code:
-Clone this repository:
-
-bash
-Copy
-Edit
+### 1. Clone the Repository
+```bash
 git clone https://github.com/YourUsername/Computer-Vision-Lab.git
 cd Computer-Vision-Lab
-Install required dependencies:
+```
 
-bash
-Copy
-Edit
+### 2. Install Required Packages
+```bash
 pip install -r requirements.txt
-Run an experiment by executing the corresponding Python script:
+```
 
-bash
-Copy
-Edit
+### 3. Run Any Experiment
+```bash
 python experiment_name.py
-💡 Why Explore These Computer Vision Experiments?
-Hands-On Learning: Gain practical experience in computer vision and deep learning.
+```
 
-Real-World Applications: The projects are designed to solve real-world problems such as object detection in autonomous vehicles, face recognition, and more.
+---
 
-Step-by-Step Walkthrough: Each experiment is well-documented with clear explanations and code.
+## 📸 Sample Visualizations
 
-Visualization Tools: Visualize training progress, model predictions, and results.
+> Image grids, bounding boxes, segment maps, face matches, generated digits — all visualized live while training!
 
-🎯 Future Enhancements:
-Experiment with additional datasets for better generalization.
+---
 
-Incorporate advanced techniques like transfer learning, attention mechanisms, and 3D object detection.
+## ✨ Why This Lab?
 
-Add more interactive features for real-time applications (e.g., real-time video object detection).
+✅ Hands-on deep learning with real-world datasets  
+✅ Modular, readable code  
+✅ Clear visuals and results  
+✅ Scalable for research or coursework  
+✅ Includes real-time video detection, GANs, and tracking!
 
-📩 Contact:
-Feel free to open issues for any questions or suggestions!
-Looking forward to your contributions to the lab! 🚀
+---
+
+## 🔮 Future Scope
+
+- Add **YOLOv8** and **Mask R-CNN** projects  
+- Extend GANs to generate **anime faces** or **synthetic medical images**  
+- Integrate **Transfer Learning** for better accuracy  
+- Build a mini **Autonomous Car Simulator** using CNN + SSD
+
+---
+
+## 📬 Connect
+
+📧 Email: [your-email@example.com]  
+🌐 GitHub: [YourUsername](https://github.com/YourUsername)
+
+---
+
+> 💡 *"Vision is the art of seeing what is invisible to others." – Jonathan Swift*
+
