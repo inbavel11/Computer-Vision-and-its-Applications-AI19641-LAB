@@ -79,8 +79,8 @@ python experiment_name.py
 
 ## 📬 Connect
 
-📧 Email: [syogesappu@gmail.com]  
-🌐 GitHub: [Appuyoges](https://github.com/Appuyoges)
+📧 Email: [221501050@gmail.com]  
+🌐 GitHub: [Inbavel](https://github.com/inbavel11)
 
 ---
 
